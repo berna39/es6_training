@@ -1,10 +1,11 @@
-export class Person { //named export
+export class Person {
+  //named export
 
-    constructor(name){
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    walk(){
-        console.log('I walk');
-    }
+  walk() {
+    console.log('I walk');
+  }
 }

@@ -9,10 +9,10 @@ console.log(mySet);
 
 mySet.add('Belgium');
 
-console.log(mySet); // Still the same 
+console.log(mySet); // Still the same
 
-mySet.forEach(e => console.log(e));
+mySet.forEach((e) => console.log(e));
 
-mySet.delete('Luxemburg')
+mySet.delete('Luxemburg');
 
-console.log(mySet.entries()); 
+console.log(mySet.entries());

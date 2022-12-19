@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/berna39/es6_training/issues"
   },
-  "homepage": "https://github.com/berna39/es6_training#readme"
+  "homepage": "https://github.com/berna39/es6_training#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1"
+  }
 }

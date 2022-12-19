@@ -1,8 +1,8 @@
 let countries = new Map([
-    ['Germany', 340],
-    ['UK', 312],
-    ['France', 287],
-    ['Spain', 240], // trailing comma
+  ['Germany', 340],
+  ['UK', 312],
+  ['France', 287],
+  ['Spain', 240], // trailing commas
 ]);
 
 countries.set('Belgium', 197);

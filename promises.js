@@ -1,5 +1,5 @@
 let promise = new Promise((reflect, reject) => {
-    setTimeout(reflect('Job done'), 3000);
+  setTimeout(reflect('Job done'), 3000);
 });
 
-promise.then(res => console.log(res));
+promise.then((res) => console.log(res));

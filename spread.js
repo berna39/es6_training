@@ -5,13 +5,13 @@ let combinedTowns = [...usa, ...uk];
 console.log(combinedTowns);
 
 let car = {
-    'mark': 'VolkWagen',
-    'model': 'Tuareg',
+  mark: 'VolkWagen',
+  model: 'Tuareg',
 };
 
 let otherCar = {
-    ...car,
-    'color':  'Blue'
+  ...car,
+  color: 'Blue',
 };
 
 console.log(otherCar);
